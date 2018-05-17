@@ -1,0 +1,53 @@
+local function OpenDonationPage(ply, text, team )
+	if string.sub( text, 1, 8 ) == "!w" then
+		
+			ply:SendLua( [[ gui.OpenURL( "http://steamcommunity.com/sharedfiles/filedetails/?id=1240959909" ) ]] )
+			
+			end
+end
+hook.Add( "PlayerSay", "OpenDonationPage", OpenDonationPage )
+
+local function OpenWorkshopPage(ply, text, team )
+	if string.sub( text, 1, 8 ) == "!vip" then
+		
+			ply:SendLua( [[ gui.OpenURL( "http://steamcommunity.com/id/altayxd" ) ]] )
+			
+			end
+end
+hook.Add( "PlayerSay", "OpenWorkshopPage", OpenWorkshopPage )
+
+local function OpenBrowserPage(ply, text, team )
+	if string.sub( text, 1, 8 ) == "!forum" then
+		
+			ply:SendLua( [[ gui.OpenURL( "https://turkiyeroleplay.mistforums.com" ) ]] )
+			
+			end
+end
+hook.Add( "PlayerSay", "OpenBrowserPage", OpenBrowserPage )
+
+local function OpenGroupPage(ply, text, team )
+	if string.sub( text, 1, 8 ) == "!grup" then
+		
+			ply:SendLua( [[ gui.OpenURL( "http://steamcommunity.com/groups/turkiyerp1" ) ]] )
+			
+			end
+end
+hook.Add( "PlayerSay", "OpenGroupPage", OpenGroupPage )
+
+local function OpenGroupPage(ply, text, team )
+	if string.sub( text, 1, 8 ) == "!website" then
+		
+			ply:SendLua( [[ gui.OpenURL( "http://turkiyeroleplay.ml" ) ]] )
+			
+			end
+end
+hook.Add( "PlayerSay", "OpenGroupPage", OpenGroupPage )
+
+local function OpenGroupPage(ply, text, team )
+	if string.sub( text, 1, 8 ) == "!discord" then
+		
+			ply:SendLua( [[ gui.OpenURL( "https://discord.gg/3fZ8gX9" ) ]] )
+			
+			end
+end
+hook.Add( "PlayerSay", "OpenGroupPage", OpenGroupPage )
