@@ -1,6 +1,6 @@
 -- Hooklar
 -- Bu dosyaları darkrp_modules klasörüne yükleyiniz.
-local ply:LocalPlayer()
+local ply = LocalPlayer()
 hook.Add( "PlayerSay", "Discord", Discord )
 hook.Add( "PlayerSay", "WorkshopSayfa", WorkshopSayfa )
 hook.Add( "PlayerSay", "VipSatis", VipSatis )
